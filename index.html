@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Currency Converte</title>
+    <link rel="shortcut icon" href="assets/images/dolar.png" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&family=Manrope:wght@500;700&family=Prompt:wght@100;400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    
+    <div class="container">
+
+        <div class="border">
+
+            <header>
+                <div class="title">
+                    <h2>Carrency Converte</h2>
+                    <img src="assets/images/dolar.png" width="50" height="50">
+                </div>
+            </header>
+    
+            <main>
+                <div class="value">
+                    <input class="ValorConverter" type="number" placeholder="Valor aqui">
+                </div>
+    
+                <div class="select">
+                    <div class="de">
+                        <select id="De">
+                            <option value='NULL'>Selecione</option>
+                            <option value='BRL' selected>Real</option>
+                            <option value='EUR'>Euro</option>
+                            <option value='USD'>Dólar</option>
+                            <option value='AUD'>Dólar australiano</option>
+                            <option value='CAD'>Dólar canadense</option>
+                            <option value='HKD'>Dólar de Hong Kong</option>
+                            <option value='CHF'>Franco suíço</option>
+                            <option value='MYR'>Ringgit malaio</option>
+                            <option value='GBP'>Libra esterlina</option>
+                            <option value='SEK'>Coroa sueca</option>
+                            <option value='JPY'>Iene</option>
+                        </select>
+                    </div>
+
+                    <div class="image">
+                        <img src="assets/images/seta-direita.png" width="45" height="45">
+                    </div>
+                    
+                    <div class="para">
+                        <select id="Para">
+                            <option value='NULL'>Selecione</option>
+                            <option value='BRL'>Real</option>
+                            <option value='EUR'>Euro</option>
+                            <option value='USD' selected>Dólar</option>
+                            <option value='AUD'>Dólar australiano</option>
+                            <option value='CAD'>Dólar canadense</option>
+                            <option value='HKD'>Dólar de Hong Kong</option>
+                            <option value='CHF'>Franco suíço</option>
+                            <option value='MYR'>Ringgit malaio</option>
+                            <option value='GBP'>Libra esterlina</option>
+                            <option value='SEK'>Coroa sueca</option>
+                            <option value='JPY'>Iene</option>
+                        </select>
+                    </div>
+                </div>
+
+                <div class="button">
+                    <input class="calcular" type="button" value="Calcular">
+                </div>
+    
+                <div class="resultado">
+                    <h2 class="result"></h2>
+                    <p class="result2"></p>
+                    <p class="result3"></p>
+                </div>
+            </main>
+
+        </div>
+        
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

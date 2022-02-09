@@ -1,0 +1,122 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Manrope', sans-serif; 
+}
+
+:root {
+    --green: #49AA26;
+    --light-green: #3dd705;
+}
+
+
+.container {
+    background: var(--green);
+    padding: 1.5rem;
+    
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    flex-direction: center;
+    justify-content: center;
+}
+
+.border {
+    background: white;
+    border-radius: 12px;
+    padding: 1rem;
+}
+
+/*------------------------------ Header ---------------------*/
+header .title {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 1.5rem 0 2rem 0;
+    font-size: 20px;
+}
+
+.title h2 {
+    padding-right: 0.5rem;
+}
+
+/*------------------------------ Main ---------------------*/
+main {
+    padding: 1rem;
+}
+
+.value {
+    padding-bottom: 1rem;
+}
+
+.value input {
+    width: 100%;
+    padding: 0.5rem;
+}
+
+.select {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+
+.select .image {
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
+.select select {
+    border-radius: 8px;
+    padding: 0.5rem 0 0.5rem 0;
+}
+
+.button {
+    text-align: center;
+    padding: 0.5rem;
+}
+
+.button input {
+    border-radius: 8px;
+    border-top: 1px solid var(--green);
+    border-left: 1px solid var(--green);
+    background: var(--green);
+    color: white;
+    font-weight: 600;
+    padding: 0.5rem;
+    width: 50%;
+}
+
+div.resultado {
+    text-align: center;
+    padding: 1rem 0 1rem 0;
+}
+
+div.resultado p {
+    padding-top: 0.3rem;
+}
+
+/* --- Responsividade --- */
+@media (min-width: 550px){
+    .container {
+        width: 100vw;
+        height: 100vh;
+        display: flex;
+        align-items: center;
+        flex-direction: center;
+        justify-content: center;
+    }
+
+    .border {
+        width: 450px;
+    }
+}
+
+@media (max-width: 415px) {
+    .select {
+        display: block;
+    }
+}

@@ -11,7 +11,7 @@ This project was developed with pure JavaScript, and obtaining the current curre
 ### Demonstration
 
 <h1 align="center">
-  <img alt="Readme" title="Readme" src="images/gifCurrency.gif">
+  <img alt="Readme" title="Readme" src="assets/images/gifCurrency.gif">
 </h1>
 
 <br>

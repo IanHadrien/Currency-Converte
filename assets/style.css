@@ -115,7 +115,7 @@ div.resultado p {
     }
 }
 
-@media (max-width: 415px) {
+@media (max-width: 350px) {
     .select {
         display: block;
     }
